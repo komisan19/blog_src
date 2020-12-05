@@ -11,7 +11,7 @@ cd public
 git add .
 
 # Commit changes.
-msg="rebuilding site `date`"
+msg="記事更新 `date "+%Y/%m/%d %H:%M:%S"`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi

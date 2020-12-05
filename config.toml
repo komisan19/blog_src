@@ -1,4 +1,4 @@
-baseURL = "https://komisan19.github.io/public"
+baseURL = "https://komisan19.github.io/blog/"
 languageCode = "ja"
 DefaultContentLanguage = "ja"
 title = "my portfolio"
