@@ -2,19 +2,16 @@
 title: "GitHub Pages+Hugoを使ったblogサイト作成手順"
 date: 2020-12-06T20:05:20+09:00
 draft: false
+tags: [ "HowTo", "Go" ]
 ---
-## 前提
-- githubとgolangが扱えることが前提です。
-- 難易度が少し高いので、WordPressを使うことをおすすめします。
-
----
-## What is Hugo?
+## Hugoとは?
 ```
 Hugo is one of the most popular open-source static site generators.
 With its amazing speed and flexibility, Hugo makes building websites fun again.
 ```
 - Hugoは人気のあるオープンソースの静的サイトジェネレータの1つ  
 - Markdwonが使えてサイト構築が早いのが特徴です。
+<!--more-->
 
 ## Install
 今回は`go get`で入れました。  

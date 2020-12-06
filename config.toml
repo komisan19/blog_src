@@ -14,9 +14,9 @@ enableRobotsTXT = true
 #googleAnalytics = "G-19DJ3KSYJ3"
 
 [params]
-title = "my portfolio"
+title = "komisan19 blog"
 author = "komisan19"
-description = "i like 🍜"
+description = "なにもないただのブログ。🍜 大好き"
 profilePicture = "images/gozira.jpg"
 keywords = ""
 favicon = "favicons/"
@@ -25,7 +25,7 @@ customJs = []
 readingTime = true
 wordCount = true
 mainSections = ["post"]
-images = ["images/site-feature-image.png"]
+images = ["images/gozira.png"]
 doNotLoadAnimations = false
 # Google Site Verification
 #googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
@@ -59,7 +59,7 @@ url = "https://qiita.com/Komisan19"
   name = "Home"
   identifier = "home"
   weight = 100
-  url = "/home/"
+  url = "/"
 
   [[menu.main]]
   name = "Posts"
