@@ -1,3 +1,4 @@
+## ブログを書くときに使いそうなやつ
 ---
 # 記事タイトルの設定
 title: "{{ replace .Name "-" " " | title }}"
@@ -24,5 +25,4 @@ categories: ["Hugo", "備忘録"]
 # 目次設定（true=表示、false=非表示）
 toc: true
 ---
-
 
