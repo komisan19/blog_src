@@ -1,4 +1,4 @@
-baseurl = "https://komisan19.github.io/blog/"
+baseurl = "https://komisan19.github.io/"
 title = "komisan19.dev"
 theme = "coder-portfolio"
 languagecode = "jp"
