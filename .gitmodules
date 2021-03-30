@@ -5,3 +5,6 @@
 	path = public
 	url = git@github.com:komisan19/blog.git
 	branch = master
+[submodule "themes/coder-portfolio"]
+	path = themes/coder-portfolio
+	url = https://github.com/naro143/hugo-coder-portfolio
