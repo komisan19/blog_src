@@ -9,4 +9,4 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-      - run: sh deploy.sh
+      - run: ls
