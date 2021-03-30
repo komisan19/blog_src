@@ -23,7 +23,7 @@ pygmentsUseClasses = true
     avatarurl = "images/gozira.jpg"
 
     footercontent = "Enter a text here." 
-    fixedbarContent = "一杯のコーヒーをサポートしていただけるならこちらを→"
+    fixedbarContent = "一杯のコーヒーをサポートしていただける方はこちらを→"
     fixedbarContentAfter = "Thank you!!!"
 
     # Whether you want to hide copyright and credits in the footer.
@@ -46,12 +46,11 @@ pygmentsUseClasses = true
     enableTwitterShare = true  # new add
     enableFacebookShare = true # new add
     enableHatenaShare = true   # new add
-    enableLineShare = true     # new add
     enableLinkedInShare = true # new add
 
     thumbnail = "images/gozira.jpg" # default sns thumbnail
     # Multilanguage mode
-    langseparator = "|" # Separates menus from language selectors when site is multilingual.
+    langseparator = "|English" # Separates menus from language selectors when site is multilingual.
 
 # Social links
 [[params.social]]
