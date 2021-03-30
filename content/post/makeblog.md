@@ -4,7 +4,7 @@ date: 2020-12-06T20:05:20+09:00
 draft: false
 tags: [ "HowTo", "Go" ]
 ---
-## Hugoとは?
+## What's Hugo?
 ```
 Hugo is one of the most popular open-source static site generators.
 With its amazing speed and flexibility, Hugo makes building websites fun again.
