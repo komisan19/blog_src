@@ -9,10 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - uses: actions/checkout@master
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -21,7 +18,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo 
     #   - name: Deploy
     #     uses: peaceiris/actions-gh-pages@v3
     #     with:
@@ -30,7 +27,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: nikaera/nikaera.github.io
+          external_repository: komisan19/komisan19.github.io
           publish_branch: main
-          cname: nikaera.com
