@@ -1,74 +1,75 @@
-baseURL = "https://komisan19.github.io/blog/"
-languageCode = "ja"
-DefaultContentLanguage = "ja"
-disablePathToLower = true
-preserveTaxonomyNames = true
-title = "my portfolio"
-HasCJKLanguage = true
-theme = "anatole"
-summarylength = 10
-enableEmoji = true
-enableRobotsTXT = true
+baseurl = "https://komisan19.github.io/blog/"
+title = "komisan19.dev"
+theme = "coder-portfolio"
+languagecode = "jp"
+defaultcontentlanguage = "jp"
 
-# Google Analytics
-#googleAnalytics = "G-19DJ3KSYJ3"
+paginate = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
+
+# disqusShortname = ""
 
 [params]
-title = "komisan19 blog"
-author = "komisan19"
-description = "なにもないただのブログ。🍜 大好き"
-profilePicture = "images/gozira.jpg"
-keywords = ""
-favicon = "favicons/"
-customCss = []
-customJs = []
-readingTime = true
-wordCount = true
-mainSections = ["post"]
-images = ["images/gozira.png"]
-doNotLoadAnimations = false
-# Google Site Verification
-#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    author = "komisan19"
+    info = "Hello everyone!!!"
+    description = "komisan19 tech blog"
+    keywords = "blog,developer,Golang"
+    avatarurl = "images/gozira.jpg"
 
-## Math settings
-[params.math]
-enable = false
-use = "katex"
+    footercontent = "Enter a text here." 
+    fixedbarContent = "一杯のコーヒーをサポートしていただけるならこちらを→"
+    fixedbarContentAfter = "Thank you!!!"
 
-## Social links
-[[params.socialIcons]]
-icon = "fab fa-github"
-title = "GitHub"
-url = "https://github.com/komisan19/"
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = false
+    hideCopyright = false
 
-[[params.socialIcons]]
-icon = "fab fa-twitter-square"
-title = "twitter"
-url = "https://twitter.com/komisan19"
+    # Custom CSS
+    custom_css = []
 
-[[params.socialIcons]]
-icon = "fas fa-book"
-title = "blog"
-url = "https://qiita.com/Komisan19"
+    # Alignment of Mobile Menu items
+    itemscentered = true
 
-## Menu items
+    # RTL support
+    rtl = false
 
-[menu]
+    # Bottom sns share
+    snsShare = true # new add
+    # Popular sns share
+    # if you want add sns. please message!
+    enableTwitterShare = true  # new add
+    enableFacebookShare = true # new add
+    enableHatenaShare = true   # new add
+    enableLineShare = true     # new add
+    enableLinkedInShare = true # new add
 
-  [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/"
+    thumbnail = "images/gozira.png" # default sns thumbnail
+    # Multilanguage mode
+    langseparator = "|" # Separates menus from language selectors when site is multilingual.
 
-  [[menu.main]]
-  name = "Posts"
-  weight = 200
-  identifier = "posts"
-  url = "/post/"
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/komisan19/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 2
+    url = "https://twitter.com/komisan19/"
 
-  [[menu.main]]
-  name = "About"
-  weight = 300
-  identifier = "about"
-  url = "/about/"
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "posts"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "about"
+
