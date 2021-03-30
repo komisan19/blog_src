@@ -6,6 +6,8 @@ defaultcontentlanguage = "jp"
 
 paginate = 20
 
+
+googleAnalytics = "G-J309CM6HYZ"
 pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
@@ -47,7 +49,7 @@ pygmentsUseClasses = true
     enableLineShare = true     # new add
     enableLinkedInShare = true # new add
 
-    thumbnail = "images/gozira.png" # default sns thumbnail
+    thumbnail = "images/gozira.jpg" # default sns thumbnail
     # Multilanguage mode
     langseparator = "|" # Separates menus from language selectors when site is multilingual.
 
