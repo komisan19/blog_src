@@ -16,11 +16,11 @@ jobs:
           # extended: true
 
       - name: Build
-        run: sh deploy.sh
+        run: hugo
 
-        # - name: Deploy
-        # uses: peaceiris/actions-gh-pages@v3
-        # with:
-        #  deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        #  external_repository: komisan19/komisan19.github.io
-        #  publish_branch: main
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: komisan19/komisan19.github.io
+          publish_branch: main
