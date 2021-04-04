@@ -11,8 +11,6 @@ lastmod: "2021-04-04"
 draft: false
 # タグ
 tags: ["atcoder", "go"]
-# カテゴリ
-categories: ["atcoder", "go"]
 # 目次設定（true=表示、false=非表示）
 toc: true
 ---
