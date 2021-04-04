@@ -25,7 +25,7 @@ commit = "https://github.com/luizdepra/hugo-coder/tree/"
 # Right To Left, shift content direction for languagues such as Arabic
 rtl = false
 # Specify light/dark colorscheme
-colorScheme = "auto"
+# colorScheme = "light"
 # Hide the toggle button, along with the associated vertical divider
 hideColorSchemeToggle = false
 # Series see also post count
