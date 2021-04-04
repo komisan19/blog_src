@@ -24,14 +24,14 @@ author = "komsian19"
 copyright = "2021"
 description = "I'm Web Engineer. I love Go😍"
 profilePicture = "images/gozira.jpg"
-keywords = ""
-favicon = "images/favicon.png"
+keywords = "blog, developer, Go"
+favicon = "favicons/"
 # example ["css/custom.css"]
 customCss = []
 # example ["js/custom.js"]
 customJs = [] 
 mainSections = []
-images = ["images/site-feature-image.png"]
+images = ["images/favicon.png"]
 doNotLoadAnimations = false
 # Form Spree Contact Form
 #contactFormAction = "https://formspree.io/f/your-form-hash-here"
@@ -45,10 +45,6 @@ doNotLoadAnimations = false
 # Read More links for truncated summaries
 # readMore = true
 # postSectionName = "blog"
-
-[params.simpleAnalytics]
-# enable = true
-# customurl = "https://analytics.example.com"
 
 ## Math settings
 [params.math]
