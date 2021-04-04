@@ -5,13 +5,13 @@ draft: false
 tags: [ "Mecab", "ubuntu", "メモ" ]
 ---
 # Install
-```console
+```bash
 $ sudo apt -y mecab libmecab-dev mecab-ipadic-utf8
 ```
 
 ただこれだけだと、うまく解析できない。
 例えば、特急はくたかってやると以下の通りなる
-```console
+```bash
 $ mecab
 特急はくたか
 特急    名詞,一般,*,*,*,*,特急,トッキュウ,トッキュー
@@ -23,13 +23,13 @@ EOS
 ```
 
 そこで、[neologd](https://github.com/neologd/mecab-ipadic-neologd.git)をいれてみる
-```console
+```bash
 $ git clone https://github.com/neologd/mecab-ipadic-neologd.git
 $ cd mecab-ipadic-neologd
 $ sudo bin/install-mecab-ipadic-neologd
 ```
 最後の方に、mecabで使うときのpathが出るのでそれを`/etc/mecabrc`に記述する
-```console
+```bash
 dicdir = /usr/lib/mecab/dic/mecab-ipadic-neologd
 ```
 上記のパスは人によって異なるかもです
