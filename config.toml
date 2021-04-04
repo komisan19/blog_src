@@ -26,6 +26,7 @@ description = "I'm Web Engineer. I love Go😍"
 profilePicture = "images/gozira.jpg"
 keywords = "blog, developer, Go"
 favicon = "favicons/"
+displayMode = "dark"
 # example ["css/custom.css"]
 customCss = []
 # example ["js/custom.js"]
