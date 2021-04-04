@@ -46,7 +46,7 @@ customJS = []
 
 # If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
 # [params.googleTagManager]
-# id = "gid"
+# id = "G-J309CM6HYZ"
 
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
@@ -99,8 +99,3 @@ url = "posts/"
 name = "Projects"
 weight = 3
 url = "projects/"
-
-[[menu.main]]
-name = "Contact me"
-weight = 5
-url = "contact/"
