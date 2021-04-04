@@ -17,7 +17,6 @@ info = "Web Engineer"
 avatarURL = "images/gozira.jpg"
 favicon_32 = "/images/favicon.png"
 favicon_16 = "/images/favicon.png"
-dateFormat = "April 2, 2021"
 hideFooter = false
 hideCredits = false
 hideCopyright = false
