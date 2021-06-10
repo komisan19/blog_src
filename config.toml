@@ -83,3 +83,50 @@ url = "https://twitter.com/komisan19"
   weight = 300
   identifier = "projects"
   url = "/projects"
+
+[Languages]
+  [Languages.ja]
+    title = "komisan19 dev"
+    weight = 100
+    LanguageName = "JP"
+
+  [[Languages.ja.menu.main]]
+    name   = "home"
+    url    = "/"
+    identifier = "home"
+    weight = 100
+  
+  [[Languages.ja.menu.main]]
+    name = "posts"
+    weight = 200
+    identifier = "posts"
+    url = "/post/"
+  
+  [[Languages.ja.menu.main]]
+    name = "Project"
+    weight = 300
+    identifier = "projects"
+    url = "/projects"
+
+  [Languages.en]
+    title = "komi19 dev"
+    weight = 100
+    LanguageName = "EN"
+
+  [[Languages.en.menu.main]]
+    name   = "home"
+    url    = "/en/"
+    identifier = "home"
+    weight = 100
+  
+  [[Languages.en.menu.main]]
+    name = "posts"
+    weight = 200
+    identifier = "posts"
+    url = "/en/post/"
+  
+  [[Languages.en.menu.main]]
+    name = "Project"
+    weight = 300
+    identifier = "projects"
+    url = "/en/projects"
