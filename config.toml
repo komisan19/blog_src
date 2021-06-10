@@ -1,6 +1,7 @@
 baseURL = "https://komisan19.github.io/"
 title = "komisan19 dev"
 theme = "anatole"
+defaultContentLanguageInSubdir = "true"
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
