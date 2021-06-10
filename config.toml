@@ -1,5 +1,4 @@
 baseURL = "https://komisan19.github.io/"
-languageCode = "ja"
 title = "komisan19 dev"
 theme = "anatole"
 summarylength = 10
