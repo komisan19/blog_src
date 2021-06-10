@@ -1,6 +1,5 @@
 baseURL = "https://komisan19.github.io/"
 languageCode = "ja"
-DefaultContentLanguage = "ja"
 title = "komisan19 dev"
 theme = "anatole"
 summarylength = 10
@@ -64,35 +63,16 @@ url = "https://twitter.com/komisan19"
 
 ## Menu items
 
-[menu]
-
-  [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/"
-
-  [[menu.main]]
-  name = "Posts"
-  weight = 200
-  identifier = "posts"
-  url = "/post/"
-
-  [[menu.main]]
-  name = "Project"
-  weight = 300
-  identifier = "projects"
-  url = "/projects"
-
 [Languages]
   [Languages.ja]
     title = "komisan19 dev"
     weight = 100
     LanguageName = "JP"
+    contentDir = "content/ja"
 
   [[Languages.ja.menu.main]]
     name   = "home"
-    url    = "/"
+    url    = "/ja"
     identifier = "home"
     weight = 100
   
@@ -100,22 +80,23 @@ url = "https://twitter.com/komisan19"
     name = "posts"
     weight = 200
     identifier = "posts"
-    url = "/post/"
+    url = "/ja/post/"
   
   [[Languages.ja.menu.main]]
     name = "Project"
     weight = 300
     identifier = "projects"
-    url = "/projects"
+    url = "/ja/projects"
 
   [Languages.en]
-    title = "komi19 dev"
+    title = "komisan19 dev"
     weight = 100
     LanguageName = "EN"
+    contentDir = "content/en"
 
   [[Languages.en.menu.main]]
     name   = "home"
-    url    = "/en/"
+    url    = "/en"
     identifier = "home"
     weight = 100
   
