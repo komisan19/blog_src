@@ -19,8 +19,8 @@ I'm not very good at English, so I'm sorry if my grammar is wrong.
 I like Go and TypeScript, Kubernetes and Docker!  
 i contributed this project  
 
-- [aws-load-balancer-controller](https://github.com/komisan19/aws-load-balancer-controller)
-- [docui](https://github.com/komisan19/docui)
+[![kubernetes-sigs/aws-load-balancer-controller - GitHub](https://gh-card.dev/repos/kubernetes-sigs/aws-load-balancer-controller.svg)](https://github.com/kubernetes-sigs/aws-load-balancer-controller)
+[![skanehira/docui - GitHub](https://gh-card.dev/repos/skanehira/docui.svg)](https://github.com/skanehira/docui)
 
 ```
 package main
