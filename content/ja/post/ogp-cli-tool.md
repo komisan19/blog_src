@@ -25,7 +25,7 @@ READMEに記載されていますが、以下のとおりです。
 ogpenのあとにスクレイピングしたいurlを入力し、その後ファイル名を打てば出力してくれます。
 現状、pngのみ対応しましたが他のフォーマットにも対応予定です。
 試しにこの記事をスクレイピングしてみました。
-{{< figure src="../../../static/images/hoge.png" title="OGP" class="center" width="500" height="500" >}}
+{{< figure src="/images/hoge.jpg" title="OGP" class="center" width="500" height="500" >}}
 
 
 ## まとめ
