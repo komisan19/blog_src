@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on komisan19 dev</title>
+    <link>https://komisan19.github.io/ja/categories/hugo/</link>
+    <description>Recent content in Hugo on komisan19 dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://komisan19.github.io/ja/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Porject</title>
+      <link>https://komisan19.github.io/ja/projects/</link>
+      <pubDate>Sun, 04 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://komisan19.github.io/ja/projects/</guid>
+      
+        <description>開発中</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -4,15 +4,9 @@ title: "スクレイピングからOGP画像を作成できるCLIを作った話
 # 記事の説明
 description : "こんにちは"
 # 作成日付の設定
-date: "2021-06-17"
-# 更新日
-lastmod: "2021-06-17"
+date: "2021-06-16"
 # 下書きモード（true=下書き、false=公開）
 draft: false
-# タグ
-tags: ["Go", "CLI", "OGP"]
-# 目次設定（true=表示、false=非表示）
-toc: true
 ---
 タイトル通りですが、スクレイピングからOGP画像を作成できるCLIを作って見ました。
 <a href="https://github.com/komisan19/ogpgen"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/komisan19/ogpgen.png" width="300px"></a>
