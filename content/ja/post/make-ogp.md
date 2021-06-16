@@ -8,7 +8,7 @@ date: "2021-06-17"
 # 更新日
 lastmod: "2021-06-17"
 # 下書きモード（true=下書き、false=公開）
-draft: true
+draft: false
 # タグ
 tags: ["Go", "CLI", "OGP"]
 # 目次設定（true=表示、false=非表示）
