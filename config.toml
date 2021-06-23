@@ -1,7 +1,7 @@
 baseURL = "https://komisan19.github.io/"
 title = "komisan19 dev"
 theme = "anatole"
-defaultContentLanguageInSubdir = "true"
+languageCode = "ja"
 defaultContentLanguage = "ja"
 summarylength = 10
 enableEmoji = true
@@ -55,7 +55,7 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 [[params.socialIcons]]
 icon = "fab fa-github"
 title = "GitHub"
-url = "https://github.com/lxndrblz/komisan19/"
+url = "https://github.com/komisan19/"
 
 [[params.socialIcons]]
 icon = "fab fa-twitter"
@@ -73,7 +73,7 @@ url = "https://twitter.com/komisan19"
 
   [[Languages.ja.menu.main]]
     name   = "home"
-    url    = "/ja"
+    url    = "/"
     identifier = "home"
     weight = 100
   
@@ -81,13 +81,13 @@ url = "https://twitter.com/komisan19"
     name = "posts"
     weight = 200
     identifier = "posts"
-    url = "/ja/post/"
+    url = "/post/"
   
   [[Languages.ja.menu.main]]
     name = "Project"
     weight = 300
     identifier = "projects"
-    url = "/ja/projects"
+    url = "/projects"
 
   [Languages.en]
     title = "komisan19 dev"
