@@ -2,6 +2,7 @@ baseURL = "https://komisan19.github.io/"
 title = "komisan19 dev"
 theme = "anatole"
 defaultContentLanguageInSubdir = "true"
+defaultContentLanguage = "ja"
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
@@ -10,7 +11,7 @@ enableRobotsTXT = true
 #disqusShortname = ""
 
 # Google Analytics
-#googleAnalytics = "G-J309CM6HYZ"
+googleAnalytics = "G-J309CM6HYZ"
 
 # Syntax highlighting
 pygmentsUseClasses = true
