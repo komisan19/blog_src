@@ -20,11 +20,11 @@ jobs:
         with:
           hugo-version: 'latest'
 
-      - name: Create Webp and remove png
-        run: ls -la
+      - name: Create Webp
+        run: sh shell/webp.sh
 
-      - name: Create Webp and remove png
-        run: sh shell/webp.sh && rm /static/images/*.webp
+      - name: Remove Old image
+        run: rm static/images/*.png
 
       - name: Build
         run: hugo --minify
