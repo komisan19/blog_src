@@ -23,7 +23,7 @@ title = "komisan19 dev"
 author = "komsian19"
 copyright = "2021"
 description = "I'm Web Engineer. I love Go😍"
-profilePicture = "images/gozira.png"
+profilePicture = "images/gozira.webp"
 keywords = "blog, developer, Go"
 favicon = "favicons/"
 displayMode = "dark"
@@ -32,7 +32,7 @@ customCss = []
 # example ["js/custom.js"]
 customJs = [] 
 mainSections = []
-images = ["images/favicon.png"]
+images = ["images/favicon.webp"]
 doNotLoadAnimations = false
 # Form Spree Contact Form
 #contactFormAction = "https://formspree.io/f/your-form-hash-here"
