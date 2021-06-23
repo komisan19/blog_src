@@ -21,6 +21,9 @@ jobs:
           hugo-version: 'latest'
 
       - name: Create Webp and remove png
+        run: ls -la
+
+      - name: Create Webp and remove png
         run: sh shell/webp.sh && rm /static/images/*.webp
 
       - name: Build
