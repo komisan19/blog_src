@@ -7,7 +7,6 @@ draft: false
 # タグ
 tags: ["project", "GitHub"]
 # カテゴリ
-categories: ["Hugo", "備忘録"]
 ---
 開発中
 
