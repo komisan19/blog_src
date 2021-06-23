@@ -20,11 +20,11 @@ jobs:
         with:
           hugo-version: 'latest'
 
+      - name: Create Webp and remove png
+        run: sh shell/webp.sh && rm /static/images/*.webp
+
       - name: Build
         run: hugo --minify
-
-      - name: Create Webp and remove png
-        run: ls
         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
