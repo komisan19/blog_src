@@ -18,9 +18,6 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
-[frontmatter]
-date  = [":filename", ":default"]
-
 [params]
 title = "komisan19 dev"
 author = "komsian19"
