@@ -21,7 +21,8 @@ pygmentsCodefencesGuessSyntax = true
 [params]
 title = "komisan19 dev"
 author = "komsian19"
-copyright = "2021"
+copyright = "{{ YEAR }}"
+contentratio = 0.8
 description = "I'm Web Engineer. I love Go😍"
 profilePicture = "images/gozira.webp"
 keywords = "blog, developer, Go"
