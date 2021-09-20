@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>komisan19 dev</title>
+    <link>https://komisan19.dev/</link>
+    <description>Recent content on komisan19 dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 09 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://komisan19.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>新型コロナウイルス感染症対策サイトのステータスを確認できるサイトを作った話</title>
+      <link>https://komisan19.dev/post/2021-08-09-covid19-check/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://komisan19.dev/post/2021-08-09-covid19-check/</guid>
+      <description>皆さんはこのページを知っていますか？
+https://stopcovid19.metro.tokyo.lg.jp/
+この度、東京都は、新型コロナウイルス感染症対策に関する様々な情報やデータをワンストップで閲覧できるサイトを開設しました。 ＊prtimes参照
+このような目的で作成されたようです。
+もちろん東京以外にもこのページから派生したものが多くあります。
+https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SITES.md
+リンク切れのサイトもありますが、まだ残っているサイトもあるみたいです。
+しかし、中には最終更新日が去年のものや更新されていないものもあります。
+そこで今回はこのステータスを可視化できるサイトを作ってみました。 https://status-check.</description>
+    </item>
+    
+    <item>
+      <title>スクレイピングからOGP画像を作成できるCLIを作った話</title>
+      <link>https://komisan19.dev/post/ogp-cli-tool/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://komisan19.dev/post/ogp-cli-tool/</guid>
+      <description>タイトル通りですが、スクレイピングからOGP画像を作成できるCLIを作って見ました。 経緯 最近個人ブログを作成したのですが、　OGPをうまく入れられなかったのでスクレイピングからそこまで作成できたらいいなと思い作成しました。
+使い方 READMEに記載されていますが、以下のとおりです。
+ogpgen command [arguments] --url string Target url --filename string output filename(ex: hoge.</description>
+    </item>
+    
+    <item>
+      <title>Hello Create</title>
+      <link>https://komisan19.dev/post/hello-create/</link>
+      <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://komisan19.dev/post/hello-create/</guid>
+      <description>いつもはzennでブログを書いているので、
+こちらでも書いていこうかと思い作成しました。</description>
+    </item>
+    
+    <item>
+      <title>Porject</title>
+      <link>https://komisan19.dev/projects/</link>
+      <pubDate>Sun, 04 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://komisan19.dev/projects/</guid>
+      <description>開発中</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://komisan19.dev/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://komisan19.dev/archives/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
