@@ -8,5 +8,5 @@ draft: false
 tags: ["project", "GitHub"]
 ---
 develop now
-
+- [新型コロナウイルス感染症確認サイト](https://status-check.komisan19.dev/)
 
